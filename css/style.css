@@ -36,6 +36,10 @@ body{
 
 /* --------------HEADER------------ */
 
+.header{
+    background-color: #FFFFFF;
+}
+
 .header-logo {
 font-family: 'Raleway';
 font-style: normal;
@@ -80,7 +84,8 @@ color: #757575;
 /* --------------CAP------------ */
 
 .cap {
-    background-color: #757575;
+    background-color: 
+    #2F303A;
 }
 
 .cap-title {
@@ -91,8 +96,10 @@ color: #757575;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #FFFFFF;
 }
 .cap-btn {
+cursor: pointer;
 background: #188CE8;;
 }
 .cap-btn {
@@ -109,22 +116,26 @@ color: #FFFFFF;
 
 /* --------------DETAILS------------ */
 
-.dtails-list > p {
 
-    font-weight: 400;
+.details{
+    background-color: #FFFFFF;
+}
+
+.details-list > p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    
 }
 
 
 /* -------------WORK------------- */
 
+.work{
+    background-color: #F5F5F5;
+}
+
 .work-title {
-font-style: normal;
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
@@ -132,6 +143,9 @@ letter-spacing: 0.03em;
 
 /* -------------TEAM------------- */
 
+.team{
+    background-color: #F5F4FA;
+}
 
 .team-title {
 font-style: normal;
@@ -157,7 +171,7 @@ color: #757575;
 
 
 .footer {
-    background-color: #757575;
+    background-color: #2F303A
 }
 
 .footer-logo > span {
