@@ -1,11 +1,41 @@
 
 
+
+
+
+
+
+
+p, h1, h2, h3 {
+    margin: 0px;
+}
+ul {
+margin: 0px;
+padding: 0px;
+}
+
+img {
+    display: block;
+}
+
+
 body{
     font-family: 'roboto-regular', 'roboto-bold', 'roboto-medium', 'roboto-black', 'relewey-bold', sans-serif;
     color: #212121;
 }
 
 /* --------------UNIVERSAL CLASSES------------ */
+
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 2px solid red; */
+}
+
+
 
 .link{
     text-decoration: none;
@@ -40,7 +70,17 @@ body{
     background-color: #FFFFFF;
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .header-logo {
+padding: 25px 0px;
+margin-right: 90px;
+display: block;
+
+
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -54,7 +94,19 @@ color: #000000;
 color: #2196F3;
 }
 
+.header-list{
+    display: flex;
+}
+.header-list .header-nav:not(:last-child) {
+    margin-right: 50px;
+}
+
 .header-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -67,7 +119,19 @@ color: #2196F3;
     color: #2196F3;
 }
 
+.header-info {
+    margin-left: auto;
+    display: flex;
+}
+.header-info .header-nav:not(:last-child) {
+    margin-right: 40px;
+}
+
 .header-links {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -88,12 +152,25 @@ color: #757575;
     #2F303A;
 }
 
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    
+}
+
 .cap-title {
-    font-style: normal;
+    margin-bottom: 30px;
+    max-width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -102,14 +179,19 @@ color: #757575;
 cursor: pointer;
 background: #188CE8;;
 }
+
+
+
 .cap-btn {
-font-style: normal;
+min-width: 200px;
+padding: 10px 25px;
+text-align: center;
+
+
+
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 }
@@ -121,12 +203,23 @@ color: #FFFFFF;
     background-color: #FFFFFF;
 }
 
+.details-container {
+    display: flex;
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
 .details-list > p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.details-title {
+    margin-bottom: 10px;
+}
+
 
 
 /* -------------WORK------------- */
@@ -135,11 +228,29 @@ color: #FFFFFF;
     background-color: #F5F5F5;
 }
 
+.work-container {
+   padding-top: 0px;
+   padding-bottom: 95px;
+   
+}
+
 .work-title {
+text-align: center;
+
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
 }
+
+.work-link {
+    display: flex;
+}
+.work-link .work-links:not(:last-child) {
+margin-right: 30px;
+}
+
+
 
 /* -------------TEAM------------- */
 
@@ -147,19 +258,34 @@ letter-spacing: 0.03em;
     background-color: #F5F4FA;
 }
 
+.team-containner {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
 .team-title {
-font-style: normal;
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
 color: #212121;
 }
 
+.team-list {
+    display: flex;
+    
+}
+
+.team-list .team-position:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-name {
+    margin: 30px auto 10px;
+}
+
 .team-text {
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -174,21 +300,33 @@ color: #757575;
     background-color: #2F303A
 }
 
-.footer-logo > span {
-    color: #2196F3;
-    }
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
     
     .footer-logo {
+        margin-bottom: 30px;
+        display: block;
+
+
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
-        font-size: 1.14;
-        line-height: 31px;
+        font-size: 26px;
+        line-height: 1.19;
         color: #FFFFFF;
+
     }
+
+    .footer-logo > span {
+        color: #2196F3;
+        }
+
     .contact-link{
         font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;

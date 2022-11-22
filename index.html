@@ -8,12 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container main-nav">
+            <a href="" class="header-logo link"> <span>Web</span>Studio</a>
        <nav class="header-nav">
-        <a href="" class="header-logo link"> <span>Web</span>Studio</a>
         <ul class="header-list list">
             <li class="header-nav"><a href="https://andrii55.github.io/Homework-01/" target="_self" class="header-link link">Студія</a></li>
             <li class="header-nav"><a href="https://andrii55.github.io/goit-markup-hw-02/" target="_self" class="header-link link">Портфоліо</a></li>
@@ -21,18 +23,21 @@
         </ul>
        </nav>
        <ul class="header-info list">
-        <li class="header-info"><a href="mailto:info@devstudio.com" class="header-links link">info@devstudio.com</a></li>
-        <li class="header-info"><a href="tel:+380961111111" class="header-links link">+38 096 111 11 11</a></li>
+        <li class="header-nav"><a href="mailto:info@devstudio.com" class="header-links link">info@devstudio.com</a></li>
+        <li class="header-nav"><a href="tel:+380961111111" class="header-links link">+38 096 111 11 11</a></li>
        </ul>
+    </div>
     </header>
     <main>
-
         <section class="cap">
+            <div class="container hero">
           <h1 class="cap-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button"class="cap-btn"> <span>Замовити послугу </span></button>
+          <div><button type="button"class="cap-btn"> <span>Замовити послугу </span></button></div>
+        </div>
         </section>
     
         <section class="details">
+            <div class="container details-container">
             <h2 class="visually-hidden">Деталі роботи</h2>
             <ul class="detail-description">
                 <li class="details-list list">
@@ -58,19 +63,24 @@
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+        </div>
+    
         </section>
      
 
         <section class="work">
+            <div class="container work-container">
             <h2 class="work-title">Чим ми займаємося</h2>
             <ul class="work-link list">
                 <li class="work-links link"><img src="./img/img1.jpg" alt="Фотографії напрямку діяльності" width="370" height="294"></li>
                 <li class="work-links link"><img src="./img/img2.jpg" alt="Фотографії напрямку діяльності" width="370" height="294"></li>
                 <li class="work-links link"><img src="./img/img3.jpg" alt="Фотографії напрямку діяльності" width="370" height="294"></li>
             </ul>
+            </div>
         </section>
 
         <section class="team">
+            <div class="container team-containner">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-position link">
@@ -84,7 +94,7 @@
                         <p class="team-text">Frontend Developer</p>
                 </li>
                 <li class="team-position link">
-                    <img src="./img/img_photo3.jpg" alt="Наша команда" width="270" height="260">
+                    <img  src="./img/img_photo3.jpg" alt="Наша команда" width="270" height="260">
                         <h3 class="team-name title">Микола Тарасов</h3>
                         <p class="team-text">Marketing</p>
                 </li>
@@ -94,10 +104,13 @@
                         <p class="team-text">UI Designer</p>
                 </li>
             </ul>
+           </div>
+        
         </section>
     </main>
     <footer>
         <section class="footer">
+            <div class="container footer-container">
             <a href="" class="footer-logo link"> <span>Web</span>Studio</a>
             <address class="address">
                 <ul class="contact-list list">
@@ -105,8 +118,8 @@
                     <li class="contact-items"><a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a></li>
                     <li class="contact-items"><a href="tel:+380961111111" class="contact-link link ">+38 096 111 11 11</a></li>
                 </ul>
-
             </address>
+        </div>
         </section>
     </footer>
     
