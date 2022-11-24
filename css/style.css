@@ -68,6 +68,7 @@ body{
 
 .header{
     background-color: #FFFFFF;
+    border-bottom: #ECECEC;
 }
 
 .main-nav {
@@ -216,6 +217,20 @@ color: #FFFFFF;
     color: #757575;
 }
 
+
+
+.details-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.detail-description:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+
 .details-title {
     margin-bottom: 10px;
 }
@@ -225,7 +240,7 @@ color: #FFFFFF;
 /* -------------WORK------------- */
 
 .work{
-    background-color: #F5F5F5;
+    background-color: #FFFFFF
 }
 
 .work-container {
@@ -275,6 +290,14 @@ color: #212121;
 .team-list {
     display: flex;
     
+    
+}
+
+.team-position{
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-list .team-position:not(:last-child){
@@ -286,6 +309,8 @@ color: #212121;
 }
 
 .team-text {
+margin-bottom: 30px;
+
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
