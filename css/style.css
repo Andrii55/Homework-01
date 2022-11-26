@@ -157,16 +157,19 @@ color: #757575;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    display: block;
+    
+
+    
     
 }
 
 .cap-title {
     margin-bottom: 30px;
     max-width: 700px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
-
+    
 
     font-weight: 900;
     font-size: 44px;
@@ -176,25 +179,28 @@ color: #757575;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.cap-btn {
+
+.cap-btn{
 cursor: pointer;
-background: #188CE8;;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+min-width: 200px;
 }
 
 
 
-.cap-btn {
-min-width: 200px;
-padding: 10px 25px;
-text-align: center;
+.cap-btn > span {
+    padding: 10px 25px;
 
-
-
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    color: #FFFFFF;
 }
 
 /* --------------DETAILS------------ */
