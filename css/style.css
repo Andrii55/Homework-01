@@ -104,6 +104,8 @@ color: #2196F3;
     margin-right: 50px;
 }
 
+
+
 .header-link {
     display: block;
     padding-top: 30px;
@@ -117,17 +119,22 @@ color: #2196F3;
     color: #212121;
 }
 
+
+
 .header-link:hover,
-.header-link:focus
-{
+.header-link:focus{
     color: #2196F3;
 }
 
-.header-link:active {
+.header-link:active{
     color: red;
 }
+.header-link:visited{
+    color: violet;
+}
 
- 
+
+
 
 .header-info {
     margin-left: auto;
