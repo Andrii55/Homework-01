@@ -3,9 +3,6 @@
 
 
 
-
-
-
 p, h1, h2, h3 {
     margin: 0px;
 }
@@ -117,6 +114,7 @@ color: #2196F3;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    
 }
 
 
@@ -124,13 +122,6 @@ color: #2196F3;
 .header-link:hover,
 .header-link:focus{
     color: #2196F3;
-}
-
-.header-link:active{
-    color: red;
-}
-.header-link:visited{
-    color: violet;
 }
 
 
