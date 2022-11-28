@@ -1,6 +1,8 @@
 
 
-
+:root{
+    --accent-color: #2196F3;
+}
 
 
 p, h1, h2, h3 {
@@ -102,6 +104,12 @@ color: #2196F3;
 }
 
 
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    color: var(--accent-color);
+}
+
 
 .header-link {
     display: block;
@@ -119,10 +127,6 @@ color: #2196F3;
 
 
 
-.header-link:hover,
-.header-link:focus{
-    color: #2196F3;
-}
 
 
 
